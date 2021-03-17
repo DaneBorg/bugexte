@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "./Link";
+import GoogleAuth from "./GoogleAuth";
 
 const Header = () => {
   return (
@@ -20,6 +21,9 @@ const Header = () => {
         <Link href="/A4" className="item">
           Item A4
         </Link>
+        <div className="right menu">
+          <GoogleAuth />
+        </div>
       </div>
     </div>
   );
